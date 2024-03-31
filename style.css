@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+
+
+body {
+   
+    background-image: url(img/bg3.png);
+    background-repeat:repeat;
+    background-size: cover;
+    background-position: fixed;
+    margin-top: 5%;
+    /* margin: auto; */
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: white;
+    font-family: monospace;
+    font-size: large;
+    overflow: hidden;
+
+    
+
+    & div {
+        /* background-color: antiquewhite; */
+        width: 380px;
+        height: 450px;
+        margin: auto;
+        padding: 50px;
+        background: linear-gradient(to right, #2b5427, #408f3fbd, #c6e6b67e) ;
+        border-radius: 50px;
+        /* border: white; */
+        /* border-width: medium; */
+        box-shadow: 0px 0px 20px 2px ;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & *{
+            position: relative;
+            width: 100%;
+            margin: auto;
+        }
+
+        & h2{
+            font-size: 50px;
+            margin: auto;
+            letter-spacing: 5px;
+            text-shadow:2px 2px 5px #2b5427;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap:20px;
+            & img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+        & p{
+            position: relative;
+            width: 90%;
+            text-align: center;
+            & img{
+                width: 300px;
+                border-radius: 10px;
+            }
+        }
+        & button {
+            position: relative;
+           background-color:  goldenrod;
+           font-weight: bold;
+           color: white;
+           text-shadow: 1px 1px 5px #2b5427;
+           width: 80%;
+           border: none;
+           border-radius: 4px;
+           margin-bottom: 4px;
+           margin-top: 4px;
+           padding-bottom: 5px;
+           padding-top: 5px;
+           transition: 0.3s;
+           &:hover{
+            cursor: pointer;
+            scale: 1.01;
+
+           }
+        }
+    }
+}
